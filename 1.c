@@ -1,0 +1,13 @@
+//Write a program to calculate the sum of numbers stored in an array of size 10. Takearray values from the user
+#include<stdio.h>
+int main()
+{	int arr[10],sum=0,i;
+	printf("Enter value in an array: ");
+	for(i=0;i<10;i++){
+		scanf("%d",&arr[i]);
+		sum+=arr[i];
+	}
+	printf("sum of all array elements is %d",sum);
+return 0;
+}
+
